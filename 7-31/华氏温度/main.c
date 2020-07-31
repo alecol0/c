@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
         printf("%d\t\t\t\t",f);
         printf("%d\n",c);
         f = f + 20;
-        if ( f<=/* DISABLES CODE */ (260)&&f>=280){
+        if ( f==260||f==280){
           continue;
         }
         
