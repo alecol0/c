@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0004139824D3E9C800150EE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0004139724D3E9C800150EE0 /* main.c */; };
 		000413A524D3EC9F00150EE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 000413A424D3EC9F00150EE0 /* main.c */; };
 		000413B024D3F0BE00150EE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 000413AF24D3F0BE00150EE0 /* main.c */; };
 		000413BB24D3F1EB00150EE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 000413BA24D3F1EB00150EE0 /* main.c */; };
@@ -16,15 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0004139224D3E9C800150EE0 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		000413A024D3EC9F00150EE0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,7 +63,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0004139424D3E9C800150EE0 /* 2020-7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2020-7"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0004139724D3E9C800150EE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		000413A224D3EC9F00150EE0 /* 利息 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利息"; sourceTree = BUILT_PRODUCTS_DIR; };
 		000413A424D3EC9F00150EE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -88,13 +77,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0004139124D3E9C800150EE0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0004139F24D3EC9F00150EE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,7 +131,6 @@
 		0004139524D3E9C800150EE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0004139424D3E9C800150EE0 /* 2020-7 */,
 				000413A224D3EC9F00150EE0 /* 利息 */,
 				000413AD24D3F0BE00150EE0 /* 循环' */,
 				000413B824D3F1EB00150EE0 /* 前n项和 */,
@@ -210,23 +191,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0004139324D3E9C800150EE0 /* 2020-7 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0004139B24D3E9C800150EE0 /* Build configuration list for PBXNativeTarget "2020-7" */;
-			buildPhases = (
-				0004139024D3E9C800150EE0 /* Sources */,
-				0004139124D3E9C800150EE0 /* Frameworks */,
-				0004139224D3E9C800150EE0 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "2020-7";
-			productName = "2020-7";
-			productReference = 0004139424D3E9C800150EE0 /* 2020-7 */;
-			productType = "com.apple.product-type.tool";
-		};
 		000413A124D3EC9F00150EE0 /* 利息 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000413A624D3EC9F00150EE0 /* Build configuration list for PBXNativeTarget "利息" */;
@@ -321,9 +285,6 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = edz;
 				TargetAttributes = {
-					0004139324D3E9C800150EE0 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
 					000413A124D3EC9F00150EE0 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -354,7 +315,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0004139324D3E9C800150EE0 /* 2020-7 */,
 				000413A124D3EC9F00150EE0 /* 利息 */,
 				000413AC24D3F0BE00150EE0 /* 循环' */,
 				000413B724D3F1EB00150EE0 /* 前n项和 */,
@@ -365,14 +325,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0004139024D3E9C800150EE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0004139824D3E9C800150EE0 /* main.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0004139E24D3EC9F00150EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,22 +477,6 @@
 			};
 			name = Release;
 		};
-		0004139C24D3E9C800150EE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		0004139D24D3E9C800150EE0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		000413A724D3EC9F00150EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -629,15 +565,6 @@
 			buildConfigurations = (
 				0004139924D3E9C800150EE0 /* Debug */,
 				0004139A24D3E9C800150EE0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0004139B24D3E9C800150EE0 /* Build configuration list for PBXNativeTarget "2020-7" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0004139C24D3E9C800150EE0 /* Debug */,
-				0004139D24D3E9C800150EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
