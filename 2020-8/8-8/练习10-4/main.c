@@ -8,12 +8,13 @@
 //
 
 #include <stdio.h>
-#define i 5
+#define i 8
 void set_idx(int *v,int n){
-    for (n=0;n<i;n++){
-        v[n]=n;
+    int x;
+    for (x=0;x<n;x++){
+        v[x]=x;
     }
-    
+    return ;
 }
 
 int main(int argc, const char * argv[]) {
