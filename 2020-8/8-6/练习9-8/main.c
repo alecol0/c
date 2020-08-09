@@ -5,28 +5,26 @@
 //  练习9-8
 
 #include<stdio.h>
+#include <string.h>
 
 void put_stringr(const char s[]) {
-    int g = strlen(s);
-    int i;
-    int len;
-    scanf ("%d",&len);
-    char m[len];
-    for (i = 0; i < g; i++) {
-        m[i] = s[g -i- 1];
-        putchar(m[i]);
+    int str_len = 0 ; //内部结构长度
+    while(s[str_len] != '0'){ //如果字符串没有终止，则继续
+        str_len++;
     }
-    
+    while (s[str_len] >= 0){
+        putchar(s[str_len]);
+        str_len--;
+    }
+    return ;
 }
 int main(int argc, const char * argv[]) {
-    int len;
-    scanf ("%d",&len);
-    char x[len];
+    
+    char x[10];
     printf("请输入字符串:");
     scanf("%s", x);
-    printf("%s", x);
-    putchar('\n');
+    printf("%s\n", x);
     put_stringr(x);
-    
+    putchar('\n');
     
 }

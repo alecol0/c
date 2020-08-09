@@ -5,25 +5,27 @@
 //  练习9-10
 
 #include <stdio.h>
-#define num 128
+#include <string.h>
+
 void del_digit( char s[]) {
     int i=0;
-    while(s[i] != '\0') {
-        if (s[i] >= '0' && s[i] <= '9') {
-            s[i++];
-        }
-        else
-        {
-            putchar(s[i]);
+    int len = (unsigned int)strlen(s);
+    for(i=0;i<len;i++){
+        while(s[i] != '\0') {
+            if (s[i] < '0' || s[i] > '9') {
+                putchar(s[i]);
+            }
             i++;
         }
     }
 }
+
 int main(int argc, const char * argv[]) {
-    char s[num];
+    char s[10];
     printf("输入字符串:");
     scanf("%s", s);
-    printf("%s\n", s);
+    printf("输出字符串:");
     del_digit(s);
+    printf("\n");
     
 }
