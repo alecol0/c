@@ -63,7 +63,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0004139724D3E9C800150EE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		000413A224D3EC9F00150EE0 /* 利息 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利息"; sourceTree = BUILT_PRODUCTS_DIR; };
 		000413A424D3EC9F00150EE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		000413AD24D3F0BE00150EE0 /* 循环' */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "循环'"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +117,6 @@
 		0004138B24D3E9C800150EE0 = {
 			isa = PBXGroup;
 			children = (
-				0004139624D3E9C800150EE0 /* 2020-7 */,
 				000413A324D3EC9F00150EE0 /* 利息 */,
 				000413AE24D3F0BE00150EE0 /* 循环' */,
 				000413B924D3F1EB00150EE0 /* 前n项和 */,
@@ -138,14 +136,6 @@
 				000413CE24D3F68900150EE0 /* pai */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0004139624D3E9C800150EE0 /* 2020-7 */ = {
-			isa = PBXGroup;
-			children = (
-				0004139724D3E9C800150EE0 /* main.c */,
-			);
-			path = "2020-7";
 			sourceTree = "<group>";
 		};
 		000413A324D3EC9F00150EE0 /* 利息 */ = {
